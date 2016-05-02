@@ -2,7 +2,7 @@
 require_once(__DIR__."/../../lib/test.php");
 require_once("pico_removeindex.php");
 
-class SortTest extends PHPUnit_Framework_TestCase {
+class Pico_RemoveIndexTest extends PHPUnit_Framework_TestCase {
   public function setUp() {
     $this->pico = $GLOBALS['pico'];
     $this->test = new Pico_RemoveIndex($this->pico);
