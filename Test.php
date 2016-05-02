@@ -1,4 +1,5 @@
 <?php 
+if (php_sapi_name() != 'cli') return;
 require_once(__DIR__."/../../lib/test.php");
 require_once("pico_removeindex.php");
 
